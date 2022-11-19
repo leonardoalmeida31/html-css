@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        /*
+            SELETORES PERSONALIZADOS
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children
+        */
+        a {
+            color: rgb(65, 131, 114);
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+        a:visited {
+            color: rgb(25, 56, 46);
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: aqua;
+        }
+        a::before {
+            content: '➣';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 0, 0);
+        }
+        a::after {
+            content: '⇚';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://instagram.com/leonardoalmeida_31" target="_blank">Instagram</a></li>
+        <li><a href="https://www.wattpad.com/user/LeonardoAlmeida07"target="_blank">Wattpad</a></li>
+        <li><a href="https://leonardoalmeida.website/"target="_blank">Meu site</a></li>
+    </ul>
+</body>
+</html>
